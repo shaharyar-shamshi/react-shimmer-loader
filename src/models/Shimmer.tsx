@@ -5,4 +5,5 @@ export interface ShimmerProps {
   backgroundColor?: string;
   highlightColor?: string;
   animationDuration?: number;
+  borderRadius?: string;
 }
