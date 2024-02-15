@@ -5,7 +5,6 @@ import "../styles/Shimmer.css";
 const Shimmer: React.FC<ShimmerProps> = ({
   width,
   height,
-  children,
   backgroundColor = "#f6f7f8",
   highlightColor = "#eaeaea",
   animationDuration = 1,
@@ -26,7 +25,6 @@ const Shimmer: React.FC<ShimmerProps> = ({
 
   return (
     <div style={{ position: "relative", width, height }}>
-      {children}
       <div className="shimmer" style={shimmerStyle} />
     </div>
   );

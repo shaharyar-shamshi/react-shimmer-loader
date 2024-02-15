@@ -40,7 +40,7 @@ The `Shimmer` component accepts the following props:
 
 - **width** (required): Specifies the width of the shimmer effect.
 - **height** (required): Specifies the height of the shimmer effect.
-- **children** (required): Accepts any React node or component as children. This is typically the content you want to display with the shimmer effect.
 - **backgroundColor** (optional): Specifies the background color of the shimmer effect. Default is `#f6f7f8`.
 - **highlightColor** (optional): Specifies the highlight color of the shimmer effect. Default is `#eaeaea`.
 - **animationDuration** (optional): Specifies the duration of the shimmer animation in seconds. Default is `1`.
+- **borderRadius**(optional): Specifies the border radius of the shimmer animation can be commonly used for the circular image
